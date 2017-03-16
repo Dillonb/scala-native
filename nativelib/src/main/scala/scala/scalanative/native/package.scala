@@ -65,6 +65,9 @@ package object native {
   /** The C/C++ 'size_t' type. */
   type CSize = Word
 
+  /** The C/C++ 'pid_t' type. */
+  type CPid = CInt
+
   /** C-style string with trailing 0. */
   type CString = Ptr[CChar]
 
